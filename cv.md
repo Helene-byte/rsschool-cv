@@ -50,3 +50,6 @@ E-Mail: [kla197914@gmail.com](mailto:kla197914@gmail.com)
         .join('');
 }
 ```
+
+**Project Description**: Give it a try with Front-End  
+[GitHub Repository](https://github.com/Helene-byte/rsschool-cv/)
