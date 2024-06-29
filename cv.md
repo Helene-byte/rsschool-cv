@@ -1,3 +1,4 @@
+# ![Photo](rsscholl-cv/photo.png)
 # Olena Krasylshchykova
 **Middle Full-Stack Developer**  
 Wroclaw, Poland  
