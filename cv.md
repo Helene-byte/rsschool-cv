@@ -1,4 +1,6 @@
 # ![Photo](photo.png)
+<img src="photo.png" alt="Photo" width="200"/>
+
 # Olena Krasylshchykova
 **Middle Full-Stack Developer**  
 Wroclaw, Poland  
