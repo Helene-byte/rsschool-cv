@@ -1,4 +1,4 @@
-# ![Photo](photo.png)
+# ![Photo](photo_resize.png)
 
 
 # Olena Krasylshchykova
