@@ -160,6 +160,15 @@ pre {
     margin-top: 20px;
 }
 
+.full-width {
+    width: 100%;
+}
+
+.full-width pre {
+    width: calc(100% - 40px); /* Adjust width to account for padding */
+    margin: 0 auto;
+}
+
 /* Footer Styles */
 footer {
     background: #333;
@@ -200,10 +209,16 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-    .header-text {
-        margin-top: 20px;
-    }
+
     .content {
-        display: block;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .full-width pre {
+        width: calc(100% - 40px); /* Adjust width to account for padding */
     }
 }
