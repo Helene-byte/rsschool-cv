@@ -35,25 +35,27 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .header-text {
-    text-align: left;
+    text-align: center;
 }
 
 .header-text h1 {
     margin-bottom: 10px;
+    font-size: 2.5em;
 }
 
 .subtitle {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
@@ -115,9 +117,8 @@ main {
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar {
@@ -125,6 +126,7 @@ main {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .sidebar h2 {
@@ -137,6 +139,7 @@ section {
 
 h2 {
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 ul {
@@ -146,6 +149,7 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+    font-size: 0.9em;
 }
 
 pre {
@@ -153,6 +157,7 @@ pre {
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
+    margin-top: 20px;
 }
 
 /* Footer Styles */
@@ -172,7 +177,7 @@ footer {
 }
 
 .footer-container p {
-    margin: 5px 0;
+    margin-bottom: 10px;
 }
 
 .footer-container a {
@@ -185,30 +190,20 @@ footer {
 }
 
 .logo {
-    width: 100px;
+    width: 50px;
     height: auto;
 }
 
-/* Responsive Styles */
+/* Responsive Design */
 @media (max-width: 768px) {
-    .content {
-        grid-template-columns: 1fr;
-    }
-
     .header-container {
         flex-direction: column;
-        align-items: center;
-    }
-
-    .header-text {
         text-align: center;
     }
-
-    nav ul {
-        flex-direction: column;
+    .header-text {
+        margin-top: 20px;
     }
-
-    nav ul li {
-        margin: 10px 0;
+    .content {
+        display: block;
     }
 }
