@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olena Krasylshchykova's CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="photo_resize.png" alt="Olena Krasylshchykova" class="photo">
+            <div class="header-text">
+                <h1>Olena Krasylshchykova</h1>
+                <p class="subtitle">Middle Full-Stack Developer</p>
+                <ul class="contact-info">
+                    <li>Wroclaw, Poland</li>
+                    <li><a href="mailto:kla197914@gmail.com">kla197914@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#code-solution">Code Solution</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <aside class="sidebar">
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Proficiency in Java development</li>
+                        <li>Hands-on experience with Spring and Spring Boot frameworks</li>
+                        <li>Troubleshooting and debugging skills</li>
+                        <li>Experience in Python development</li>
+                        <li>Experience with microservices architecture on AWS, Azure</li>
+                        <li>CICD pipelines</li>
+                        <li>Working experience with Scrum Methodology</li>
+                        <li>Strong communication and collaboration skills</li>
+                        <li>C1 level of English</li>
+                    </ul>
+                </section>
+            </aside>
+            <section id="experience">
+                <h2>Experience</h2>
+                <div class="job">
+                    <h3>May 2022 - Present</h3>
+                    <h3>Senior Software Test Automation Engineer, <a href="https://www.epam.com/">EPAM Systems</a></h3>
+                    <ul>
+                        <li>Increased testing coverage for the existing framework</li>
+                        <li>Created POC for automation framework</li>
+                        <li>Created performance testing scripts (Gatling)</li>
+                        <li>Created Jenkins pipelines for regression</li>
+                        <li>Release Management Activities</li>
+                        <li>Test Documentation creation</li>
+                    </ul>
+                    <p><strong>Tools:</strong> DocumentDB, OpenSearch, IntelliJ, PyCharm, Jenkins, Postman, Jira, AWS, Grafana, GitLab CI, JMeter, Java 8, TestNG, Cucumber, RestAssured, Allure, Jackson, TestRail, Gatling</p>
+                </div>
+                <div class="job">
+                    <h3>Oct 2021 - May 2022</h3>
+                    <h3>Software Automation Engineer, <a href="https://www.epam.com/">EPAM Systems</a></h3>
+                    <ul>
+                        <li>Developed automated API tests for main functionality and regression</li>
+                        <li>Designed Behavior Driven Development scenarios</li>
+                        <li>Updated and maintained automated tests</li>
+                        <li>Configured Jenkins for daily run and on-demand</li>
+                        <li>Performance testing</li>
+                    </ul>
+                    <p><strong>Tools:</strong> ElasticSearch, DynamoDB, DocumentDB, IntelliJ, PyCharm, Jenkins, Postman, Jira, AWS, Grafana, GitLab CI, JMeter, Java, TestNG, Python, pytest, Groovy</p>
+                </div>
+            </section>
+            <section id="code-solution" class="full-width">
+                <h2>Code Solution from Codewars</h2>
+                <pre>
+<code>
+function toCamelCase(str) {
+    return str
+        .split(/[-_]/)
+        .map((word, index) => {
+            if (index === 0) {
+                return word;
+            }
+            return word.charAt(0).toUpperCase() + word.slice(1);
+        })
+        .join('');
+}
+</code>
+                </pre>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p><a href="https://github.com/Helene-byte/rsschool-cv/">GitHub Repository</a></p>
+            <p>&copy; 2024</p>
+            <p><a href="https://app.rs.school/"><img src="rs_school_logo.png" alt="Rolling Scopes School Logo" class="logo"></a></p>
+        </div>
+    </footer>
+</body>
+</html>
